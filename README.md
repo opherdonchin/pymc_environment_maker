@@ -18,13 +18,15 @@
 6. Your IDE will have different rules for getting it to point to this package:
    - VS Code
      - Install the `pixi` extension to VS Code
-     - Type `code` in the Repositories directory
+     - Type `code .` in the Repositories directory
        - VS Code should automatically recognize the environment and suggest is as the default python environment
    - Spyder
      - Add `pykernels` to this package
        - `pixi add pykernels`
      -
    - PyCharm
-     -  
+7. There are two demo files:
+   - Straight python: `pymc_demo.py` 
+   - Jupyter notebook: `pymc_demo.ipynb`
 
 Now everything should work. Let me know if it does.
