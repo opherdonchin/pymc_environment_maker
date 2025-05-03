@@ -15,8 +15,16 @@
 5. In the command prompt type:
     - In the cloned repository run `pixi install`
         - This will install the environment you need for PyMC
-6. Depending on the IDE you use, you may need to install it into the environment and then run from within it, for example:
-    - `pixi add spyder`
-    - `pixi run spyder`
+6. Your IDE will have different rules for getting it to point to this package:
+   - VS Code
+     - Install the `pixi` extension to VS Code
+     - Type `code` in the Repositories directory
+       - VS Code should automatically recognize the environment and suggest is as the default python environment
+   - Spyder
+     - Add `pykernels` to this package
+       - `pixi add pykernels`
+     -
+   - PyCharm
+     -  
 
 Now everything should work. Let me know if it does.
